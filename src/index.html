@@ -1,40 +1,42 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
 </head>
 
-<body class="w-screen h-screen flex justify-center items-center bg-slate-400">
+<body class="w-screen h-screen flex justify-center items-center bg-slate-400 text-white">
     <!-- card -->
-    <div class=
-    "bg-slate-500 h-4/6 w-9/12 rounded-3xl pr-8 mx-10  shadow-lg shadow-slate-500 duration-500 flex
-        hover:shadow-2xl hover:shadow-slate-600 ">
-        <div class="flex h-full o ">
-        <img src="img/blue-white-leafy-background-vector_53876-136080 1.png" class="rounded-3xl flex h-full">
-    </div>
-    <!-- estrutura interna do card com input h1 e button-->
-    <div class="flex flex-col h-full w-5/6 text-white">
-    <!-- h1 -->
-        <h1 class="font-bold text-3xl flex justify-center py-6 items-center duration-300 hover:-translate-y-1">HiroX</h1>
-    <!-- div do input de login -->
-    <div class="flex justify-center flex-col gap-6 h-full items-center ">
-         <input type="text" placeholder="Login" class="w-5/6 p-2 rounded-full  duration-500 focus:outline-none bg-slate-500">
-        <!-- div com input de senha junto com span de senha -->
-    <div class="flex  flex-col items-center w-full ">
-        <input type="password" placeholder="Password" class="w-5/6 p-2 rounded-full  duration-500 focus:outline-none  bg-slate-500 ">
-
-        <span class="cursor-pointe  pt-4 duration-500 hover:text-cyan flex justify-start hover:-translate-y-1">Esqueci a senha!
-        </span>
-    </div>
-    <!-- button -->
-            <button id="meuBotao"class=" w-20 p-2 bg-slate-700 mt-4 rounded-full text-white shadow-md shadow-slate-600 duration-300 hover:bg-slate-600  transition transform ease-in-out hover:-translate-y-1 hover:scale-110 focus:outline-none">Entrar</button>
-            <span class=" flex justify-center pt-4 cursor-pointer duration-300  hover:-translate-y-1">registrar</span>
+    <div class="bg-slate-500 h-96 w-96 rounded-3xl shadow-lg shadow-slate-500 duration-500 mx-10 hover:shadow-2xl hover:shadow-slate-600 flex justify-center">
+        <!-- estrutura interna do card com input h1 e button-->
+        <div class="flex flex-col h-full w-5/6 ">
+            <!-- h1 -->
+            <h1 class="font-bold text-3xl flex justify-center py-6 items-center duration-300 ">HiroX</h1>
+            <!-- div do input de login -->
+            <div class="flex flex-col gap-6 h-full items-center">
+                <div class="flex flex-col items-center w-full justify-start">
+                    <h1 class="w-5/6 p-2 flex justify-start font-bold font-2xl ">Login </h1>
+                    <input id="text" type="text" placeholder="Username, gmail & phone number " class="w-5/6 p-2 duration-500 focus:outline-none bg-slate-500 hover:-translate-y-1 ">
+                </div>
+                <!-- div com input de senha junto com span de senha -->
+                <div class="flex flex-col items-center w-full h-full">
+                    <div class="flex flex-col justify-around items-center w-full h-full ">
+                        <input id="password" text="password" placeholder="Password" class="w-5/6 p-2 duration-500 focus:outline-none bg-slate-500 hover:-translate-y-1">
+                        <span class="cursor-pointer w-5/6 pt-4 p-2 duration-500 flex justify-start hover:text-slate-100/20">Esqueci a senha!
+                        </span>
+                    </div>
+                    <div class="flex justify-evenly items-center  w-full h-full ">
+                        <!-- button -->
+                        <button id="meuBotao" class="w-20 p-2 bg-slate-700  rounded-full  shadow-md shadow-slate-600 duration-300 hover:bg-slate-600 transition transform ease-in-out hover:-translate-y-1 hover:scale-110 focus:outline-none">Entrar</button>
+                        <span class="flex justify-center cursor-pointer duration-300 hover:-translate-y-1 pl-10">registrar</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
 
+</html>
