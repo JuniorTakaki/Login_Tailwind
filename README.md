@@ -18,5 +18,3 @@ The goal of this project was to create a clean and modern login page, showcasing
 - **Tailwind CSS:** The project leverages the utility classes provided by Tailwind CSS for quick and efficient styling.
 
 
-   ```bash
-   git clone (https://github.com/JuniorTakaki/tailwind)https://github.com/JuniorTakaki/tailwind
