@@ -9,25 +9,28 @@
 <body class="w-screen h-screen flex justify-center items-center bg-slate-400">
     <!-- card -->
     <div class=
-    "bg-slate-500 w-96 h-3/6 rounded-3xl px-8 mx-10  shadow-lg shadow-slate-500 duration-500
-        hover:shadow-2xl hover:shadow-slate-600 hover:-translate-y-1">
-
+    "bg-slate-500 h-4/6 w-9/12 rounded-3xl pr-8 mx-10  shadow-lg shadow-slate-500 duration-500 flex
+        hover:shadow-2xl hover:shadow-slate-600 ">
+        <div class="flex h-full o ">
+        <img src="img/blue-white-leafy-background-vector_53876-136080 1.png" class="rounded-3xl flex h-full">
+    </div>
     <!-- estrutura interna do card com input h1 e button-->
-    <div class="flex flex-col h-full">
+    <div class="flex flex-col h-full w-5/6 text-white">
     <!-- h1 -->
-        <h1 class="text-white font-bold text-3xl flex justify-center py-6 items-center">HiroX</h1>
+        <h1 class="font-bold text-3xl flex justify-center py-6 items-center duration-300 hover:-translate-y-1">HiroX</h1>
     <!-- div do input de login -->
-    <div class="flex justify-center flex-col gap-6 h-full">
-         <input type="text" placeholder="Login" class="w-full p-2 rounded-full  focus:outline-none duration-500  hover:shadow-sm hover:shadow-slate-200 hover:-translate-y-1">
+    <div class="flex justify-center flex-col gap-6 h-full items-center ">
+         <input type="text" placeholder="Login" class="w-5/6 p-2 rounded-full  duration-500 focus:outline-none bg-slate-500">
         <!-- div com input de senha junto com span de senha -->
-    <div>
-        <input type="password" placeholder="Password" class="w-full p-2 rounded-full  focus:outline-none duration-500
-        hover:shadow-sm hover:shadow-slate-200 hover:-translate-y-1">
-        <span class="cursor-pointer text-white pl-2 duration-500 hover:text-transparent">Esqueci a senha!</span>
+    <div class="flex  flex-col items-center w-full ">
+        <input type="password" placeholder="Password" class="w-5/6 p-2 rounded-full  duration-500 focus:outline-none  bg-slate-500 ">
+
+        <span class="cursor-pointe  pt-4 duration-500 hover:text-cyan flex justify-start hover:-translate-y-1">Esqueci a senha!
+        </span>
     </div>
     <!-- button -->
-            <button id="meuBotao"class=" w-20 p-2 bg-slate-700 mt-4 rounded-full text-white shadow-md shadow-slate-600 duration-300 hover:bg-slate-600  transition transform ease-in-out hover:-translate-y-1 hover:scale-110">Entrar</button>
-            <span class="text-white flex justify-center pt-4 cursor-pointer duration-300  hover:-translate-y-1 hover:text-blue-600">registrar</span>
+            <button id="meuBotao"class=" w-20 p-2 bg-slate-700 mt-4 rounded-full text-white shadow-md shadow-slate-600 duration-300 hover:bg-slate-600  transition transform ease-in-out hover:-translate-y-1 hover:scale-110 focus:outline-none">Entrar</button>
+            <span class=" flex justify-center pt-4 cursor-pointer duration-300  hover:-translate-y-1">registrar</span>
         </div>
     </div>
 </div>
